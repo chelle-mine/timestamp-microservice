@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "A simple timestamp API.",
   "main": "index.js",
-  "repository": {
-		"type": "git",
-		"url": "https://github.com/chelle-mine/timestamp-microservice"
+  "repository": { 
+    "type": "git",
+    "url": "https://github.com/chelle-mine/timestamp-microservice"
   },
-  "scripts": {
-	 	"start": "node index.js",
-		"test": "./node_modules/.bin/mocha --reporter spec"
+  "scripts": { 
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "license": "ISC",
   "dependencies": {
