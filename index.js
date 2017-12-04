@@ -6,7 +6,7 @@ const app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 
-app.get('/', (req, res) => res.render('index', {
+app.get('/', (req, res) => res.render('home', {
 	domainName: req.protocol + '://' + req.get('host') + '/',
 	date: encodeURI('September 18, 2012')
 }));
