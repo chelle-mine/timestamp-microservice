@@ -8,8 +8,8 @@
 		"url": "https://github.com/chelle-mine/timestamp-microservice"
   },
   "scripts": {
-		"start": "node index.js", 
-    "test": "./node_modules/.bin/mocha --reporter spec"
+	 	"start": "node index.js",
+		"test": "./node_modules/.bin/mocha --reporter spec"
   },
   "license": "ISC",
   "dependencies": {
