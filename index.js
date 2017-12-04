@@ -49,7 +49,7 @@ app.param('dateIn', (req, res, next, dateIn) => {
 });
 
 app.use('/:dateIn', (req, res) => {
-    res.send(JSON.stringify(req.date));
+    res.end(JSON.stringify(req.date));
 });
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
