@@ -19,7 +19,7 @@ app.param('dateIn', (req, res, next, dateIn) => {
 	};
 
 	// if `dateIn` is an int, presume UNIX timestamp
-	if (Number.isInteger(parseInt(dateIn))) {
+	if (dateIn.match(/^\d+$/)) {
 		const d = new Date(parseInt(dateIn) * 1000);
 
 		if (!isNaN(d.getTime())) {
